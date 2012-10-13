@@ -1,0 +1,17 @@
+{
+  "name": "New Facebook Icons",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Chrome Extension for replacing the old boring facebook emoticons",
+  "browser_action": {
+    "default_icon": "grin.png"
+    },
+    "content_scripts": [
+    {
+      "matches": [ "http://*.facebook.com/*", "http://facebook.com/*", "https://*.facebook.com/*", "https://facebook.com/*"],
+      "js": ["js/jquery.min.js", "js/myscript.js"],
+      "css":["css/main.css"]
+    }
+  ],
+  "permissions": [ "contextMenus", "tabs", "http://*.facebook.com/*", "http://facebook.com/*", "https://*.facebook.com/*", "https://facebook.com/*" ]
+  }
