@@ -1,4 +1,10 @@
-This is just a simple chrome extension to replace the old facebook smileys with the better ones.
+Replaces the default yellow icons used all across facebook.com.
 
-<h2>To install this extension, just download the crx file ---> go to extensions in settings in chrome ---> drag the crx file into the window...Click on ADD</h2>
-<h3>Thats it. you are done.</h3>
+##Installation
+- Download the [extension](https://github.com/praveenpuglia/New-Faceboook-Icons/raw/master/New-Faceboook-Icons.crx) (**.crx** file)
+- Go to `Chrome Settings -> More Tools -> Extensions`
+- Drag & Drop the downloaded **.crx** file into **Extensions** window.
+- Add
+
+##Usage
+Go to [`https://facebook.com`](https://facebook.com) in a new tab or reload existing facebook tab. 
